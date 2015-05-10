@@ -1,0 +1,41 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+/*========BODY=======*/
+body { margin: 0; padding: 0; background-color: #fff; font-family: 'Open Sans', sans-serif; box-sizing: border-box; color: #393939; font-size: 16px; }
+
+#container { width: 960px; margin: 0 auto; padding-top: 100px; }
+
+/*========CLEARFIX=======*/
+.clearfix:before, main:before, #container:before, .clearfix:after, main:after, #container:after { content: ""; display: table; }
+.clearfix:after, main:after, #container:after { clear: both; }
+
+/*========HEADER=======*/
+header { background-color: #f4d03f; height: 160px; position: relative; }
+header .left { position: absolute; bottom: 10px; left: 35%; }
+header .right { position: absolute; bottom: 10px; left: 57%; }
+header h1 { margin: 0; }
+header img { position: absolute; bottom: -75px; left: 44.5%; }
+header ul { margin: 0; padding: 0; list-style: none; display: inline-block; }
+header ul li { border-right: 1px solid #393939; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
+header ul li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+header ul a { color: #393939; text-decoration: none; }
+header ul a .current, header ul a:hover { text-decoration: underline; }
+
+/*========WORK FILTER=======*/
+.work-filter { width: 311px; margin: 0 auto; }
+
+ul#filter { margin: 0; padding: 0; list-style: none; width: 100%; display: inline-block; }
+ul#filter li { border-right: 1px solid #dedede; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #999; text-decoration: none; }
+ul#filter a .current, ul#filter a:hover { text-decoration: underline; }
+ul#filter a .current { color: #333; font-weight: bold; }
+
+/*========PORTFOLIO=======*/
+ul#portfolio { float: left; list-style: none; margin-top: 30px; }
+ul#portfolio li { float: left; margin: 0 5px 10px 5px; padding: 5px; width: 200px; }
+ul#portfolio a { text-align: center; display: block; width: 100%; color: #999; text-decoration: none; }
+ul#portfolio a:hover { text-decoration: underline; }
+ul#portfolio a:focus { outline: none; }
+ul#portfolio img { border: 1px solid #dedede; display: block; margin-bottom: 5px; }
+
+/*# sourceMappingURL=main.css.map */

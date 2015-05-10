@@ -1,0 +1,182 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+$text-color: #393939;
+$text-highlight: #999;
+
+/*========BODY=======*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  color: $text-color;
+  font-size: 16px; 
+}
+
+main {
+  @extend .clearfix;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+  @extend .clearfix;
+}
+
+/*========CLEARFIX=======*/
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+/*========HEADER=======*/
+
+header {
+  background-color: #f4d03f;
+  height: 160px;
+  position: relative;
+
+  .left {
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+  }
+
+  .right {
+    position: absolute;
+    bottom: 10px;
+    left: 57%;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  img {
+    position: absolute;
+    bottom: -75px;
+    left: 44.5%;
+  }
+
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+
+  li {
+    border-right: 1px solid $text-color;
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
+    padding-right: 10px;
+    &:last-child { 
+      border-right: none; 
+      margin-right: 0; 
+      padding-right: 0; 
+    }
+  }
+
+  a { 
+    color: $text-color; 
+    text-decoration: 
+    none; 
+
+    .current,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+}
+
+/*========WORK FILTER=======*/
+
+.work-filter {
+  width: 311px;
+  margin: 0 auto;
+}
+
+ul#filter { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+
+  li {
+    border-right: 1px solid #dedede;
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
+    padding-right: 10px;
+    &:last-child { 
+      border-right: none; 
+      margin-right: 0; 
+      padding-right: 0; 
+    }
+  }
+
+  a { 
+    color: $text-highlight; 
+    text-decoration: 
+    none; 
+
+    .current,
+    &:hover {
+      text-decoration: underline;
+    }
+
+    .current {
+      color: #333; 
+      font-weight: bold;
+    }
+  }
+}
+
+/*========PORTFOLIO=======*/
+
+ul#portfolio {
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+
+    li {
+      float: left;
+      margin: 0 5px 10px 5px;
+      padding: 5px;
+      width: 200px;
+    }
+
+    a {
+      text-align: center;
+      display: block;
+      width: 100%;
+      color: $text-highlight;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+
+    img {
+      border: 1px solid #dedede;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
