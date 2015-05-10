@@ -2,6 +2,7 @@
 
 $text-color: #393939;
 $text-highlight: #999;
+$accent: #f4d03f;
 
 /*========BODY=======*/
 
@@ -44,7 +45,7 @@ main {
 /*========HEADER=======*/
 
 header {
-  background-color: #f4d03f;
+  background-color: $accent;
   height: 160px;
   position: relative;
 
@@ -91,12 +92,12 @@ header {
 
   a { 
     color: $text-color; 
-    text-decoration: 
-    none; 
+    text-decoration: none; 
 
     .current,
     &:hover {
-      text-decoration: underline;
+      margin-bottom: 5px;
+      border-bottom: 2px solid $text-color;
     }
   }
 }
@@ -136,7 +137,8 @@ ul#filter {
 
     .current,
     &:hover {
-      text-decoration: underline;
+      margin-bottom: 5px;
+      border-bottom: 2px solid $text-highlight;
     }
 
     .current {
@@ -163,15 +165,19 @@ ul#portfolio {
     a {
       text-align: center;
       display: block;
-      width: 100%;
-      color: $text-highlight;
+      color: $text-color;
       font-variant: small-caps;
+      font-weight: 400;
+      font-size: 17px;
       text-decoration: none;
+      width: 202px;
+      padding-bottom: 5px;
       &:hover {
-        text-decoration: underline;
+        background-color: $accent;
       }
       &:focus {
         outline: none;
+        background-color: $accent;
       }
     }
 
@@ -180,4 +186,13 @@ ul#portfolio {
       display: block;
       margin-bottom: 5px;
     }
+  }
+
+  /*========FOOTER=======*/
+
+  footer {
+    margin-top: 30px;
+    border-top: 2px solid $text-highlight;
+    text-align: center;
+    font-size: 14px;
   }

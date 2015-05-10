@@ -18,7 +18,7 @@ header ul { margin: 0; padding: 0; list-style: none; display: inline-block; }
 header ul li { border-right: 1px solid #393939; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
 header ul li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 header ul a { color: #393939; text-decoration: none; }
-header ul a .current, header ul a:hover { text-decoration: underline; }
+header ul a .current, header ul a:hover { margin-bottom: 5px; border-bottom: 2px solid #393939; }
 
 /*========WORK FILTER=======*/
 .work-filter { width: 311px; margin: 0 auto; }
@@ -27,15 +27,17 @@ ul#filter { margin: 0; padding: 0; list-style: none; width: 100%; display: inlin
 ul#filter li { border-right: 1px solid #dedede; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
 ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 ul#filter a { color: #999; text-decoration: none; }
-ul#filter a .current, ul#filter a:hover { text-decoration: underline; }
+ul#filter a .current, ul#filter a:hover { margin-bottom: 5px; border-bottom: 2px solid #999; }
 ul#filter a .current { color: #333; font-weight: bold; }
 
 /*========PORTFOLIO=======*/
 ul#portfolio { float: left; list-style: none; margin-top: 30px; }
 ul#portfolio li { float: left; margin: 5px 5px 15px 5px; padding: 5px; width: 200px; }
-ul#portfolio a { text-align: center; display: block; width: 100%; color: #999; font-variant: small-caps; text-decoration: none; }
-ul#portfolio a:hover { text-decoration: underline; }
-ul#portfolio a:focus { outline: none; }
+ul#portfolio a { text-align: center; display: block; color: #393939; font-variant: small-caps; font-weight: 400; font-size: 17px; text-decoration: none; width: 202px; padding-bottom: 5px; }
+ul#portfolio a:hover { background-color: #f4d03f; }
+ul#portfolio a:focus { outline: none; background-color: #f4d03f; }
 ul#portfolio img { border: 1px solid #dedede; display: block; margin-bottom: 5px; }
 
+/*========FOOTER=======*/
+footer { margin-top: 30px; border-top: 2px solid #999; text-align: center; font-size: 14px; }
 /*# sourceMappingURL=main.css.map */
