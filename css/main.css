@@ -32,8 +32,8 @@ ul#filter a .current { color: #333; font-weight: bold; }
 
 /*========PORTFOLIO=======*/
 ul#portfolio { float: left; list-style: none; margin-top: 30px; }
-ul#portfolio li { float: left; margin: 0 5px 10px 5px; padding: 5px; width: 200px; }
-ul#portfolio a { text-align: center; display: block; width: 100%; color: #999; text-decoration: none; }
+ul#portfolio li { float: left; margin: 5px 5px 15px 5px; padding: 5px; width: 200px; }
+ul#portfolio a { text-align: center; display: block; width: 100%; color: #999; font-variant: small-caps; text-decoration: none; }
 ul#portfolio a:hover { text-decoration: underline; }
 ul#portfolio a:focus { outline: none; }
 ul#portfolio img { border: 1px solid #dedede; display: block; margin-bottom: 5px; }
