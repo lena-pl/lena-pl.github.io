@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+
+<head>
+	<title>Earring</title>
+	<meta charset="utf-8">
+	<meta name="description" content="A bridal illustration by Lena Plaksina.">
+	<meta name="author" content="Lena Plaksina">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<header>
+		<h1><a href="./"><img src="images/lp-logo.png" alt="LP" height="220" width="150"></a></h1>
+		<ul class="left">
+			<li><a href="./">Work</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul class="right">
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+
+	<div id="container">
+
+		<main>
+			<h2>Earring</h2>
+			<p>
+			  This is a bridal illustration based on a photograph of the makeup/dressup process. I started with a pencil sketch and then added colour through digital painting in Photoshop. Have a look at my illustrating process below!
+			</p>
+			<img src="images/portfolio-img/earring/earring.jpg" alt="Initial linework in progress."/>
+			<img src="images/portfolio-img/earring/final-sketch.jpg" alt="Raw sketch."/>
+			<img src="images/portfolio-img/earring/earring.jpg" alt="Final illustration."/>
+		</main>
+
+		<footer>
+			<p>© Lena Plaksina 2015</p>
+		</footer>
+	</div>
+</body>
+</html>
