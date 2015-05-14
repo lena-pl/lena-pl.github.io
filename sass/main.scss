@@ -3,6 +3,7 @@
 $text-color: #393939;
 $text-highlight: #999;
 $accent: #f4d03f;
+$mini-accent: #9ecee3;
 
 /*========BODY=======*/
 
@@ -16,6 +17,21 @@ body {
   font-size: 16px; 
 }
 
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+p{
+  margin-bottom: 30px;
+  text-align: left;
+}
+
 main {
   @extend .clearfix;
 }
@@ -24,8 +40,29 @@ main {
   width: 960px;
   margin: 0 auto;
   padding-top: 100px;
+  text-align: center;
 
   @extend .clearfix;
+}
+
+.button {
+  border: 1px solid $mini-accent;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  height: 40px;
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+    padding: 20px;
+  }
+  &:hover {
+      border: 1px solid $accent;
+      background-color: $accent;
+    }
 }
 
 /*========CLEARFIX=======*/
@@ -52,7 +89,7 @@ header {
   .left {
     position: absolute;
     bottom: 10px;
-    left: 35%;
+    left: 40.5%;
   }
 
   .right {
@@ -193,6 +230,9 @@ ul#portfolio {
   footer {
     margin-top: 30px;
     border-top: 2px solid $text-highlight;
-    text-align: center;
     font-size: 14px;
+
+      p {
+        text-align: center;
+      }
   }

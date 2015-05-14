@@ -2,7 +2,17 @@
 /*========BODY=======*/
 body { margin: 0; padding: 0; background-color: #fff; font-family: 'Open Sans', sans-serif; box-sizing: border-box; color: #393939; font-size: 16px; }
 
-#container { width: 960px; margin: 0 auto; padding-top: 100px; }
+img { max-width: 100%; }
+
+h2 { text-align: center; margin-top: 0; margin-bottom: 30px; }
+
+p { margin-bottom: 30px; text-align: left; }
+
+#container { width: 960px; margin: 0 auto; padding-top: 100px; text-align: center; }
+
+.button { border: 1px solid #9ecee3; border-radius: 10px; display: inline-block; margin: 0 auto; height: 40px; }
+.button a { text-decoration: none; color: #393939; letter-spacing: 0.1em; line-height: 40px; padding: 20px; }
+.button:hover { border: 1px solid #f4d03f; background-color: #f4d03f; }
 
 /*========CLEARFIX=======*/
 .clearfix:before, main:before, #container:before, .clearfix:after, main:after, #container:after { content: ""; display: table; }
@@ -10,7 +20,7 @@ body { margin: 0; padding: 0; background-color: #fff; font-family: 'Open Sans', 
 
 /*========HEADER=======*/
 header { background-color: #f4d03f; height: 160px; position: relative; }
-header .left { position: absolute; bottom: 10px; left: 35%; }
+header .left { position: absolute; bottom: 10px; left: 40.5%; }
 header .right { position: absolute; bottom: 10px; left: 57%; }
 header h1 { margin: 0; }
 header img { position: absolute; bottom: -75px; left: 44.5%; }
@@ -39,5 +49,7 @@ ul#portfolio a:focus { outline: none; background-color: #f4d03f; }
 ul#portfolio img { border: 1px solid #dedede; display: block; margin-bottom: 5px; }
 
 /*========FOOTER=======*/
-footer { margin-top: 30px; border-top: 2px solid #999; text-align: center; font-size: 14px; }
+footer { margin-top: 30px; border-top: 2px solid #999; font-size: 14px; }
+footer p { text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
