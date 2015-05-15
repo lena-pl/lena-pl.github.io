@@ -28,6 +28,11 @@ h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 p{
   margin-bottom: 30px;
   text-align: left;
@@ -58,7 +63,7 @@ main {
     color: $text-color;
     letter-spacing: 0.1em;
     line-height: 40px;
-    padding: 20px;
+    padding: 25px;
   }
   &:hover {
       border: 1px solid $accent;
@@ -232,6 +237,24 @@ ul#portfolio {
       margin-bottom: 15px;
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
+    }
+  }
+
+  /*========ABOUT=======*/
+
+  .social {
+    padding-top: 25px;
+    img {
+      padding: 15px;
+      position: relative;
+      top: 0px;
+      -webkit-transition: top 0.4s ease;
+      -moz-transition: top 0.4s ease;
+      -o-transition: top 0.4s ease;
+
+      &:hover {
+        top: -10px;
+      }
     }
   }
 
