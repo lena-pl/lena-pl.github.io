@@ -4,6 +4,7 @@ $text-color: #393939;
 $text-highlight: #999;
 $accent: #f4d03f;
 $mini-accent: #9ecee3;
+$outline: #dedede;
 
 /*========BODY=======*/
 
@@ -161,7 +162,7 @@ ul#filter {
   display: inline-block;
 
   li {
-    border-right: 1px solid #dedede;
+    border-right: 1px solid $outline;
     float: left;
     line-height: 16px;
     margin-right: 10px;
@@ -213,8 +214,9 @@ ul#portfolio {
       font-weight: 400;
       font-size: 17px;
       text-decoration: none;
-      width: 202px;
-      padding-bottom: 5px;
+      width: 200px;
+      padding-bottom: 15px;
+      border: 1px solid $outline;
       &:hover {
         background-color: $accent;
       }
@@ -222,12 +224,14 @@ ul#portfolio {
         outline: none;
         background-color: $accent;
       }
+      border-radius: 8px;
     }
 
     img {
-      border: 1px solid #dedede;
       display: block;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
     }
   }
 

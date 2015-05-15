@@ -45,10 +45,10 @@ ul#filter a .current { color: #333; font-weight: bold; }
 /*========PORTFOLIO=======*/
 ul#portfolio { float: left; list-style: none; margin-top: 30px; }
 ul#portfolio li { float: left; margin: 5px 5px 15px 5px; padding: 5px; width: 200px; }
-ul#portfolio a { text-align: center; display: block; color: #393939; font-variant: small-caps; font-weight: 400; font-size: 17px; text-decoration: none; width: 202px; padding-bottom: 5px; }
+ul#portfolio a { text-align: center; display: block; color: #393939; font-variant: small-caps; font-weight: 400; font-size: 17px; text-decoration: none; width: 200px; padding-bottom: 15px; border: 1px solid #dedede; border-radius: 8px; }
 ul#portfolio a:hover { background-color: #f4d03f; }
 ul#portfolio a:focus { outline: none; background-color: #f4d03f; }
-ul#portfolio img { border: 1px solid #dedede; display: block; margin-bottom: 5px; }
+ul#portfolio img { display: block; margin-bottom: 15px; border-top-left-radius: 8px; border-top-right-radius: 8px; }
 
 /*========FOOTER=======*/
 footer { margin-top: 30px; border-top: 2px solid #999; font-size: 14px; }
