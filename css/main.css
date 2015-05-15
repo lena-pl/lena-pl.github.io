@@ -14,7 +14,7 @@ p { margin-bottom: 30px; text-align: left; }
 
 .button { border: 1px solid #9ecee3; border-radius: 10px; display: inline-block; margin: 0 auto; height: 40px; }
 .button a { text-decoration: none; color: #393939; letter-spacing: 0.1em; line-height: 40px; padding: 25px; }
-.button:hover { border: 1px solid #f4d03f; background-color: #f4d03f; }
+.button:hover, .button:focus { border: 1px solid #f4d03f; background-color: #f4d03f; }
 
 /*========CLEARFIX=======*/
 .clearfix:before, main:before, #container:before, .clearfix:after, main:after, #container:after { content: ""; display: table; }
@@ -32,7 +32,7 @@ header ul { margin: 0; padding: 0; list-style: none; display: inline-block; }
 header ul li { border-right: 1px solid #393939; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
 header ul li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 header ul a { color: #393939; text-decoration: none; }
-header ul a .current, header ul a:hover { margin-bottom: 5px; border-bottom: 2px solid #393939; }
+header ul a .current, header ul a:hover, header ul a:focus { margin-bottom: 5px; border-bottom: 2px solid #393939; }
 
 /*========WORK FILTER=======*/
 .work-filter { width: 311px; margin: 0 auto; }
@@ -41,7 +41,7 @@ ul#filter { margin: 0; padding: 0; list-style: none; width: 100%; display: inlin
 ul#filter li { border-right: 1px solid #dedede; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
 ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 ul#filter a { color: #999; text-decoration: none; }
-ul#filter a .current, ul#filter a:hover { margin-bottom: 5px; border-bottom: 2px solid #999; }
+ul#filter a .current, ul#filter a:hover, ul#filter a:focus { margin-bottom: 5px; border-bottom: 2px solid #999; }
 ul#filter a .current { color: #333; font-weight: bold; }
 
 /*========PORTFOLIO=======*/
@@ -55,7 +55,7 @@ ul#portfolio img { display: block; margin-bottom: 15px; border-top-left-radius: 
 /*========ABOUT=======*/
 .social { padding-top: 25px; }
 .social img { padding: 15px; position: relative; top: 0px; -webkit-transition: top 0.4s ease; -moz-transition: top 0.4s ease; -o-transition: top 0.4s ease; }
-.social img:hover { top: -10px; }
+.social img:hover, .social img:focus { top: -10px; }
 
 /*========FOOTER=======*/
 footer { margin-top: 30px; border-top: 2px solid #999; font-size: 14px; }
