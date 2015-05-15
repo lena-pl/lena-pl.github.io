@@ -19,11 +19,13 @@ p { margin-bottom: 30px; text-align: left; }
 .clearfix:after, main:after, #container:after { clear: both; }
 
 /*========HEADER=======*/
-header { background-color: #f4d03f; height: 160px; position: relative; }
-header .left { position: absolute; bottom: 10px; left: 40.5%; }
-header .right { position: absolute; bottom: 10px; left: 57%; }
+.header-container { width: 960px; height: 160px; margin: 0 auto; position: relative; }
+
+header { background-color: #f4d03f; height: 160px; }
+header .left { position: absolute; bottom: 10px; left: 350px; }
+header .right { position: absolute; bottom: 10px; left: 570px; }
 header h1 { margin: 0; }
-header img { position: absolute; bottom: -75px; left: 44.5%; }
+header img { position: absolute; bottom: -75px; left: 405px; }
 header ul { margin: 0; padding: 0; list-style: none; display: inline-block; }
 header ul li { border-right: 1px solid #393939; float: left; line-height: 16px; margin-right: 10px; padding-right: 10px; }
 header ul li:last-child { border-right: none; margin-right: 0; padding-right: 0; }

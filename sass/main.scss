@@ -81,21 +81,27 @@ main {
 
 /*========HEADER=======*/
 
+.header-container {
+  width: 960px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+}
+
 header {
   background-color: $accent;
   height: 160px;
-  position: relative;
 
   .left {
     position: absolute;
     bottom: 10px;
-    left: 40.5%;
+    left: 350px;
   }
 
   .right {
     position: absolute;
     bottom: 10px;
-    left: 57%;
+    left: 570px;
   }
 
   h1 {
@@ -105,7 +111,7 @@ header {
   img {
     position: absolute;
     bottom: -75px;
-    left: 44.5%;
+    left: 405px;
   }
 
   ul {
