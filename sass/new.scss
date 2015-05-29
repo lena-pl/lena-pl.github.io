@@ -1,0 +1,47 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+$text-color: #393939;
+$text-highlight: #999;
+$accent: #f4d03f;
+$mini-accent: #9ecee3;
+
+$font-stack: 'Open Sans', sans-serif;
+
+.logo {
+	background-color: $accent;
+}
+
+.full-width {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+
+.contain-to-grid {
+	background-color: $accent;
+	color: $text-color;
+}
+
+.top-bar {
+	background-color: $accent;
+
+		.name {
+			h1 {
+				a {
+					color: $text-color;
+				}
+			}
+		}
+
+	.top-bar-selection {
+		background-color: $accent;
+
+	}
+
+	ul {
+		li {
+			background-color: $accent;
+		}
+	}
+}
