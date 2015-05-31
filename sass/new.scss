@@ -36,6 +36,14 @@ $font-stack: 'Open Sans', sans-serif;
 	color: $text-color;
 }
 
+.top-row {
+	margin-top: 100px;
+}
+
+.regular-row {
+	margin-top: 30px;
+}
+
 .top-bar.expanded .toggle-topbar a {
   color: $text-color;
 }
