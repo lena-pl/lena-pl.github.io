@@ -7,7 +7,7 @@
   max-width: initial; }
 
 .contain-to-grid {
-  background-color: #f4d03f;
+  background-color: #9ecee3;
   color: #393939; }
 
 .col-container {
@@ -64,21 +64,21 @@ a.button {
 
 @media only screen and (min-width: 40.0625em) {
   .top-bar-section li:not(.has-form) a:not(.button) {
-    background: #f4d03f; } }
+    background: #9ecee3; } }
 .top-bar {
-  background-color: #f4d03f; }
+  background-color: #9ecee3; }
   .top-bar .name h1 a {
     color: #393939; }
   .top-bar .toggle-topbar a {
     color: #393939; }
   .top-bar .top-bar-selection {
-    background-color: #f4d03f; }
+    background-color: #9ecee3; }
   .top-bar ul li {
-    background-color: #f4d03f; }
+    background-color: #9ecee3; }
 
 /*========LOGO/HEADER=======*/
 .logo {
-  background-color: #f4d03f;
+  background-color: #9ecee3;
   max-height: 8.1em;
   margin-bottom: 100px; }
   .logo img {

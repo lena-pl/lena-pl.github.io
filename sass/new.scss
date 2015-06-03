@@ -18,7 +18,7 @@ $font-stack: 'Open Sans', sans-serif;
 }
 
 .contain-to-grid {
-	background-color: $accent;
+	background-color: $mini-accent;
 	color: $text-color;
 }
 
@@ -94,12 +94,12 @@ a.button {
 
 @media only screen and (min-width: 40.0625em) {
 	.top-bar-section li:not(.has-form) a:not(.button) {
-	  background: $accent;
+	  background: $mini-accent;
 	}
 }
 
 .top-bar {
-	background-color: $accent;
+	background-color: $mini-accent;
 
 		.name {
 			h1 {
@@ -116,13 +116,13 @@ a.button {
 		}
 
 	.top-bar-selection {
-		background-color: $accent;
+		background-color: $mini-accent;
 
 	}
 
 	ul {
 		li {
-			background-color: $accent;
+			background-color: $mini-accent;
 		}
 	}
 }
@@ -130,7 +130,7 @@ a.button {
 /*========LOGO/HEADER=======*/
 
 .logo {
-	background-color: $accent;
+	background-color: $mini-accent;
 	max-height: 8.1em;
 	margin-bottom: 100px;
 
