@@ -36,58 +36,55 @@
 	</div>
 
     <div class="row">
-      <div class="large-4 medium-6 columns web">
-          <a href="fttl.html"><img src="images/thumbs/fttl.jpg" alt=""/>fly to the limit</a>
-      </div>
+      <div class="grid">
 
-      <div class="large-4 medium-6 columns graphic-design">
-          <a href="startup-space.html"><img src="images/thumbs/startup-space.jpg" alt=""/>the startup space</a>
-      </div>
+        <div class="grid-item web">
+            <a href="fttl.html"><img src="images/thumbs/fttl.jpg" alt=""/></a>
+        </div>
 
-      <div class="large-4 medium-6 columns graphic-design web">
-          <a href="bbj.html"><img src="images/thumbs/bbj.jpg" alt=""/>breads by josef</a>
-      </div>
-    </div>
+        <div class="grid-item graphic-design">
+            <a href="startup-space.html"><img src="images/thumbs/startup-space.jpg" alt=""/></a>
+        </div>
 
-    <div class="row">
-      <div class="large-4 medium-6 columns illustration graphic-design">
-          <a href="pineapple-pattern.html"><img src="images/thumbs/pineapple-pattern.jpg" alt=""/>pineapple pattern</a>
-      </div>
+        <div class="grid-item graphic-design web">
+            <a href="bbj.html"><img src="images/thumbs/bbj.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns illustration">
-          <a href="bedroom-eyes.html"><img src="images/thumbs/bedroom-eyes.jpg" alt=""/>bedroom eyes</a>
-      </div>
+        <div class="grid-item illustration graphic-design">
+            <a href="pineapple-pattern.html"><img src="images/thumbs/pineapple-pattern.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns graphic-design web">
-          <a href="wac.html"><img src="images/thumbs/wac-website.jpg" alt=""/>women across cultures</a>
-      </div>
-    </div>
+        <div class="grid-item illustration">
+            <a href="bedroom-eyes.html"><img src="images/thumbs/bedroom-eyes.jpg" alt=""/></a>
+        </div>
 
-    <div class="row">
-      <div class="medium-6 large-4 columns illustration">
-          <a href="birthday.html"><img src="images/thumbs/birthday.jpg" alt=""/>birthday</a>
-      </div>
+        <div class="grid-item graphic-design web">
+            <a href="wac.html"><img src="images/thumbs/wac-website.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns graphic-design">
-          <a href="lp-print.html"><img src="images/thumbs/lp-print.jpg" alt=""/>lp print</a>
-      </div>
+        <div class="grid-item illustration">
+            <a href="birthday.html"><img src="images/thumbs/birthday.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns illustration">
-          <a href="pugalicious.html"><img src="images/thumbs/pug.jpg" alt=""/>pugalicious</a>
-      </div>
-    </div>
+        <div class="grid-item graphic-design">
+            <a href="lp-print.html"><img src="images/thumbs/lp-print.jpg" alt=""/></a>
+        </div>
 
-    <div class="row">
-      <div class="medium-6 large-4 columns illustration">
-          <a href="earring.html"><img src="images/thumbs/earring.jpg" alt=""/>earring</a>
-      </div>
+        <div class="grid-item illustration">
+            <a href="pugalicious.html"><img src="images/thumbs/pug.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns illustration">
-          <a href="self-portrait.html"><img src="images/thumbs/self-portrait.jpg" alt=""/>self-portrait</a>
-      </div>
+        <div class="grid-item illustration">
+            <a href="earring.html"><img src="images/thumbs/earring.jpg" alt=""/></a>
+        </div>
 
-      <div class="medium-6 large-4 columns illustration">
-          <a href="couple.html"><img src="images/thumbs/couple.jpg" alt=""/>couple</a>
+        <div class="grid-item illustration">
+            <a href="self-portrait.html"><img src="images/thumbs/self-portrait.jpg" alt=""/></a>
+        </div>
+
+        <div class="grid-item illustration">
+            <a href="couple.html"><img src="images/thumbs/couple.jpg" alt=""/></a>
+        </div>
       </div>
     </div>
 
@@ -95,8 +92,15 @@
 
   	<script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
     <script>
       $(document).foundation();
+
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 330
+      });
     </script>
   </body>
 </html>
