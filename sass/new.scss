@@ -88,3 +88,22 @@ $font-stack: 'Open Sans', sans-serif;
 		}
 	}
 }
+
+/*========ABOUT=======*/
+
+  .social {
+    padding-top: 25px;
+    img {
+      padding: 15px;
+      position: relative;
+      top: 0px;
+      -webkit-transition: top 0.4s ease;
+      -moz-transition: top 0.4s ease;
+      -o-transition: top 0.4s ease;
+
+      &:hover,
+      &:focus {
+        top: -10px;
+      }
+    }
+  }

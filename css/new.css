@@ -21,4 +21,9 @@
 .top-bar .top-bar-selection { background-color: #f4d03f; }
 .top-bar ul li { background-color: #f4d03f; }
 
+/*========ABOUT=======*/
+.social { padding-top: 25px; }
+.social img { padding: 15px; position: relative; top: 0px; -webkit-transition: top 0.4s ease; -moz-transition: top 0.4s ease; -o-transition: top 0.4s ease; }
+.social img:hover, .social img:focus { top: -10px; }
+
 /*# sourceMappingURL=new.css.map */
