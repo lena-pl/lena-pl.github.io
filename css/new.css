@@ -13,13 +13,6 @@
 .col-container {
   width: 100%; }
 
-.grid {
-  margin: 0 auto; }
-
-.grid-item {
-  padding: 7px;
-  width: 330px; }
-
 /*========TYPOGRAPHY=======*/
 h3 {
   text-align: center;
@@ -107,6 +100,24 @@ a.button {
     margin: 0 auto;
     display: block;
     margin: 0 auto; }
+
+/*========HOME=======*/
+.grid {
+  margin: 0 auto; }
+  .grid a:hover:after, .grid a:focus:after {
+    cursor: pointer;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(244, 208, 63, 0.7);
+    margin: 7px; }
+
+.grid-item {
+  padding: 7px;
+  width: 330px; }
 
 /*========ABOUT=======*/
 .social {
