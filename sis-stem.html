@@ -36,35 +36,29 @@
 	</div>
 
     <div class="row">
-    	<h3>Hello! Is it me you're looking for?</h3>
+      <main>
+      <h3>sis-STEM</h3>
+      <p>
+        sis-STEM is a proposed web service dedicated to encouraging young women to engage with STEM (Science, Technology, Engineering, Math) disciplines and consider STEM careers through visibility, active mentorship and positive enforcement.
+      </p> 
+      <p>
+        I created this concept as part of my third web development assignment for ACG Yoobee School of Design. My main development areas included hand-coding a JavaScript career quiz and working with the Google Maps API.
+      </p>
 
-	    <img src="images/bw-portrait.jpg" alt="A black and white portrait of Lena Plaksina">
+      <img src="images/portfolio-img/sis-stem/thumbs.jpg" alt="Thumbnails and wireframes for website."/>
+      
+      <p>The design of the quiz and the site went through a number of iterations. My target audience consisted mainly of high-school aged young women, so the graphics had to be bright and simple.</p>
 
-	    <h4>
-	      My name is Lena and I am a graphic designer/illustrator turning web developer/code-lover.
-	  	</h4> 
-
-	  	<p>
-	  		To me, design is all about problem-solving. I find joy in looking at a situation from a variety of angles and finding a bunch of ways to tackle it. I get pretty excited about new projects and the possibility of making something beautiful, useful and delightful.
-	  	</p>
-	    <p>
-	      I have a Merit-endorsed B.Des majoring in Communication Design, but I also studied Marketing and English post-grad at the University of Otago. After graduating, I had the pleasure of working for a year with a variety of companies in Dunedin and developed an acute interest in digital media during that time.
-	    </p>
-	    <p>
-	    	Now I'm based in Wellington and love meeting new people, so have a look at my work and get in touch! Play with the funky buttons below to flick me an email or to find me on social media.
-	    </p>
-	</div>
-
-		    <div class="button-container">
-			  <a class="button" href="mailto:lena.plaksina@gmail.com">Email me!</a>
-			</div>
-
-			<div class="social">
-				<a href="https://www.behance.net/LenaPlaksina" target="_blank"><img src="images/social/behance.png" alt="Behance" height="60" width="60"/></a>
-				<a href="https://github.com/lena-pl" target="_blank"><img src="images/social/github.png" alt="Github" height="60" width="60"/></a>
-				<a href="https://nz.linkedin.com/in/alenaplaksina" target="_blank"><img src="images/social/linkedin.png" alt="LinkedIn" height="60" width="60"/></a>
-				<a href="https://twitter.com/plaksina_lena" target="_blank"><img src="images/social/twitter.png" alt="Twitter" height="60" width="60"/></a>
-			</div>
+      <img src="images/portfolio-img/sis-stem/sis-stem-devices.jpg" alt="sis-STEM on different devices."/>
+      <img src="images/portfolio-img/sis-stem/home-desktop.png" alt="Desktop version of home page."/>
+      <p>I decided to pursue flat designs and created a number of fun illustrations depicting different STEM fields.</p>
+      <img src="images/portfolio-img/sis-stem/iphone-6.jpg" alt="Quiz results on an iPhone 6."/>
+      <img src="images/portfolio-img/sis-stem/quiz-finish-desktop.png" alt="Quiz results on a desktop."/>
+      <p>Since this is only a concept, all names/emails and businesses/locations are fictional. All of the names were randomly generated from lists of most common first and last names. Any similarity to existing people/businesses is completely accidental.</p>
+      <img src="images/portfolio-img/sis-stem/mentors-desktop-select.png" alt="Mentors page on a tablet."/>
+      <p>Thanks for viewing!</p>
+    </main>
+    </div>
 
     <footer id="footer">
       <div class="row">
@@ -101,10 +95,18 @@
     </footer>
 
 
+
   	<script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
     <script>
       $(document).foundation();
+
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 330
+      });
     </script>
   </body>
 </html>
