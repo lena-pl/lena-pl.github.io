@@ -18,12 +18,16 @@ $font-stack: 'Open Sans', sans-serif;
 }
 
 .contain-to-grid {
-	background-color: $mini-accent;
+	background-color: $accent;
 	color: $text-color;
 }
 
 .col-container {
 	width: 100%;
+}
+
+.grid {
+	margin: 0 auto;
 }
 
 .grid-item {
@@ -35,18 +39,38 @@ $font-stack: 'Open Sans', sans-serif;
 
 h3 {
 	text-align: center;
+	margin: 0 auto;
 	margin-bottom: 2rem;
+
+	@media only screen and (max-width: 40em) {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		max-width: 16rem;
+	}
 }
 
 h4 {
 	text-align: center;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
+
+	@media only screen and (max-width: 40em) {
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+}
+
+p {
+	
+	@media only screen and (max-width: 40em) {
+		margin: 0 0.7rem;
+	}
 }
 
 /*========BUTTON=======*/
 .button-container {
 	margin: 0 auto;
+	margin-top: 10px;
 	margin-bottom: 25px;
 	width: 136px;
 }
@@ -94,12 +118,12 @@ a.button {
 
 @media only screen and (min-width: 40.0625em) {
 	.top-bar-section li:not(.has-form) a:not(.button) {
-	  background: $mini-accent;
+	  background: $accent;
 	}
 }
 
 .top-bar {
-	background-color: $mini-accent;
+	background-color: $accent;
 
 		.name {
 			h1 {
@@ -116,13 +140,13 @@ a.button {
 		}
 
 	.top-bar-selection {
-		background-color: $mini-accent;
+		background-color: $accent;
 
 	}
 
 	ul {
 		li {
-			background-color: $mini-accent;
+			background-color: $accent;
 		}
 	}
 }
@@ -130,7 +154,7 @@ a.button {
 /*========LOGO/HEADER=======*/
 
 .logo {
-	background-color: $mini-accent;
+	background-color: $accent;
 	max-height: 8.1em;
 	margin-bottom: 100px;
 
@@ -161,6 +185,63 @@ a.button {
 		&:hover,
 		&:focus {
 			top: -10px;
+		}
+	}
+}
+
+/*========FOOTER=======*/
+
+footer {
+	margin-top: 80px;
+	padding-top: 25px;
+	min-height: 9em; 
+	background-color: #e9e9e9;
+
+	.subheading {
+		font-weight: 500;
+		margin-left: 0;
+	}
+
+	.icons {
+		text-align: right;
+
+	}
+
+	.icons-small {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	span.contact {
+		display: block;
+	}
+
+	img {
+		text-align: right;
+		max-width: 40px;
+		padding: 5px;
+		padding-top: 25px;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+
+			a {
+				color: $text-color;
+
+				&:hover {
+					color: $text-color;
+					border-bottom: 2px solid $text-color;
+		}
+	}
 		}
 	}
 }
