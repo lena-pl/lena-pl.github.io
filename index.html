@@ -132,14 +132,21 @@
 
   	<script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
+    <script src="js/vendor/masonry.js"></script>
+    <script src="js/vendor/imagesloaded.js"></script>
     <script>
       $(document).foundation();
 
-      $('.grid').masonry({
-        // options
-        itemSelector: '.grid-item',
-        columnWidth: 330
+      // with jQuery
+      var $container = $('.grid');
+
+      // initialize Masonry after all images have loaded  
+      $container.imagesLoaded( function() {
+           $container.masonry({
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: 330 
+           });
       });
     </script>
   </body>
