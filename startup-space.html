@@ -1,35 +1,45 @@
-<!DOCTYPE html>
-<html lang="en-NZ">
-
-<head>
-	<title>The Startup Space</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Brandring project for Dunedin's Startup Space business incubator.">
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Startup Space</title>
+	<meta name="description" content="Branding project for Dunedin's Startup Space business incubator.">
 	<meta name="author" content="Lena Plaksina">
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/new.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<div class="contain-to-grid">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1 class="hide-for-medium-up"><a href="#">Lena Plaksina</a></h1>
+          </li>
+          <li class="toggle-topbar"><a href="#">Menu</a></li>
+        </ul>
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="./">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
 
-<body>
-	<header>
-		<div class="header-container">
-			<ul class="left">
-				<li><a href="./">Work</a></li>
-			</ul>
-			<h1><a href="./"><img src="images/lp-logo.png" alt="LP" height="220" width="150"></a></h1>
-			<ul class="right">
-				<li><a href="about.html">About</a></li>
-			</ul>
+	<div class="row hide-for-small logo full-width">
+		<div class="small-12 small-centered columns">
+			<h1><a href="#"><img src="images/lp-logo.png" alt="Lena Plaksina" width="150" height="220"></a></h1>
 		</div>
-	</header>
+	</div>
 
-	<div id="container">
-
+    <div class="row">
 		<main>
-			<h2>The Startup Space</h2>
+			<h3>The Startup Space</h3>
 			<p>
 			  A new startup business incubator, called The Startup Space, supported by the local city council, tertiary institutions and established incubators opened its doors in Dunedin last year. I had the privilege of designing their visual identity. The logo is based on a lighbulb and leaves to symbolise the growth of new ideas within the incubator.
 			</p>
@@ -37,10 +47,55 @@
 			<img src="images/portfolio-img/startup-space/booklet.jpg" alt="Style guide for The Startup Space."/>
 			<img src="images/portfolio-img/startup-space/id.jpg" alt="Visual print identity for The Startup Space."/>
 		</main>
+    </div>
 
-		<footer>
-			<p>© Lena Plaksina 2015</p>
-		</footer>
-	</div>
-</body>
+    <footer id="footer">
+      <div class="row">
+
+        <div class="small-9 medium-8 columns">
+          <p class="subheading">Lena Plaksina 2015</p>
+          <span class="contact"><!-- <img src="images/social/phone.png" alt="phone icon"> -->0221932214</span>
+          <span class="contact"><!-- <img src="images/social/email.png" alt="email icon"> --> lena.plaksina@gmail.com</span>
+        </div>
+
+        <div class="small-3 medium-1 columns">
+          <ul>
+            <li><p class="subheading">Pages</p></li>
+            <li><a href="./">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+
+        <div class="small-12 columns icons-small show-for-small-only">
+          <a href="https://www.behance.net/LenaPlaksina" target="_blank"><img src="images/social/behance-grey.png" alt="Behance" height="60" width="60"/></a>
+          <a href="https://github.com/lena-pl" target="_blank"><img src="images/social/github-grey.png" alt="Github" height="60" width="60"/></a>
+          <a href="https://nz.linkedin.com/in/alenaplaksina" target="_blank"><img src="images/social/linkedin-grey.png" alt="LinkedIn" height="60" width="60"/></a>
+          <a href="https://twitter.com/plaksina_lena" target="_blank"><img src="images/social/twitter-grey.png" alt="Twitter" height="60" width="60"/></a>
+        </div>
+
+        <div class="small-12 medium-3 columns icons hide-for-small-only">
+          <a href="https://www.behance.net/LenaPlaksina" target="_blank"><img src="images/social/behance-grey.png" alt="Behance" height="60" width="60"/></a>
+          <a href="https://github.com/lena-pl" target="_blank"><img src="images/social/github-grey.png" alt="Github" height="60" width="60"/></a>
+          <a href="https://nz.linkedin.com/in/alenaplaksina" target="_blank"><img src="images/social/linkedin-grey.png" alt="LinkedIn" height="60" width="60"/></a>
+          <a href="https://twitter.com/plaksina_lena" target="_blank"><img src="images/social/twitter-grey.png" alt="Twitter" height="60" width="60"/></a>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+  	<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
+    <script>
+      $(document).foundation();
+
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 330
+      });
+    </script>
+  </body>
 </html>
