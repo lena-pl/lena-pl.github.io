@@ -18,7 +18,7 @@ h4 { text-align: center; margin-top: 3rem; margin-bottom: 1rem; }
 /*========BUTTON=======*/
 .button-container { margin: 0 auto; margin-top: 10px; margin-bottom: 25px; width: 136px; }
 
-.button { width: 136px; margin: 0 auto; border: 1px solid #9ecee3; border-radius: 10px; background-color: #fff; height: 40px; padding: 1rem 1.5rem 1.0625rem 1.6rem; }
+.button { margin: 0 auto; border: 1px solid #9ecee3; border-radius: 10px; background-color: #fff; height: 40px; padding: 1rem 1.5rem 1.0625rem 1.6rem; }
 .button:hover, .button:focus { border: 1px solid #f4d03f; background-color: #f4d03f; }
 
 a.button { line-height: 7px; text-decoration: none; color: #393939; letter-spacing: 0.1em; }
