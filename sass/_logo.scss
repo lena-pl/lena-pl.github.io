@@ -1,0 +1,19 @@
+@import 'variables';
+
+/*========LOGO/HEADER=======*/
+
+.logo {
+	background-color: $accent;
+	max-height: 8.1em;
+	margin-bottom: 100px;
+
+	img {
+		position: relative;
+		top: -0.4em;
+		height: 220px;
+		width: 150px;
+		margin: 0 auto;
+		display: block;
+		margin: 0 auto;
+	}
+}
