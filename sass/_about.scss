@@ -1,0 +1,21 @@
+@import 'variables';
+
+/*========ABOUT=======*/
+
+.social {
+	text-align: center;
+
+	img {
+		padding: 10px;
+		position: relative;
+		top: 0px;
+		-webkit-transition: top 0.4s ease;
+		-moz-transition: top 0.4s ease;
+		-o-transition: top 0.4s ease;
+
+		&:hover,
+		&:focus {
+			top: -10px;
+		}
+	}
+}

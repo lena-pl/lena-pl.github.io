@@ -1,0 +1,48 @@
+@import 'variables';
+
+/*========NAVIGATION=======*/
+
+.top-bar.expanded .toggle-topbar a {
+  color: $text-color;
+}
+
+.top-bar-section ul li>a {
+  color: $text-color;
+  font-weight: 600;
+  border-bottom: 2px solid $text-color;
+}
+
+@media only screen and (min-width: 40.0625em) {
+	.top-bar-section li:not(.has-form) a:not(.button) {
+	  background: $accent;
+	}
+}
+
+.top-bar {
+	background-color: $accent;
+
+		.name {
+			h1 {
+				a {
+					color: $text-color;
+				}
+			}
+		}
+
+		.toggle-topbar {
+			a {
+				color: $text-color;
+			}
+		}
+
+	.top-bar-selection {
+		background-color: $accent;
+
+	}
+
+	ul {
+		li {
+			background-color: $accent;
+		}
+	}
+}

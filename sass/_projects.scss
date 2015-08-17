@@ -1,0 +1,15 @@
+@import 'variables';
+
+/*========PROJECTS=======*/
+
+main {
+	img {
+		margin: 10px 0 20px 0;
+	}
+
+	p:last-child, .title {
+		text-align: center;
+		font-weight: 500;
+		letter-spacing: 0.1rem;
+	}
+}

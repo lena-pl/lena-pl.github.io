@@ -1,0 +1,33 @@
+@import 'variables';
+
+/*========TYPOGRAPHY=======*/
+
+h3 {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+
+	@media only screen and (max-width: 40em) {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		max-width: 16rem;
+	}
+}
+
+h4 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+
+	@media only screen and (max-width: 40em) {
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+}
+
+p {
+	
+	@media only screen and (max-width: 40em) {
+		margin: 0 0.7rem;
+	}
+}

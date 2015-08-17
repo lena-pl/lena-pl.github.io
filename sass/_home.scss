@@ -1,0 +1,35 @@
+@import 'variables';
+
+/*========HOME=======*/
+
+.grid {
+	margin: 0 auto;
+
+	a {
+		&:hover:after,
+		&:focus:after {
+			cursor: pointer;
+			content: " ";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(182, 182, 182, 0.7);
+			background-image: url(../images/thumbs/plus.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: 7px;
+		}
+	}
+}
+
+.grid-item {
+	padding: 7px;
+	width: 330px;
+}
+
+.work-section {
+	border-top: 2px solid $text-color;
+	padding-bottom: 1.2em;
+}
